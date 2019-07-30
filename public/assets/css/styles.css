@@ -94,7 +94,7 @@ body {
   overflow-x: hidden !important;
   text-align: left;
   position: relative;
-  color: #999999;
+  color: #00ffbf;
   opacity: 0.9; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -108,7 +108,7 @@ p {
   display: inline-block;
   cursor: pointer;
   padding: 0px;
-  background-color: transparent;
+  /* background-color: transparent; */
   -moz-transition: color 0.3s ease;
   -o-transition: color 0.3s ease;
   -webkit-transition: color 0.3s ease;
@@ -520,9 +520,9 @@ ul {
   background-repeat: no-repeat;
   margin: 0 auto;
   background-position: center center; }
-
+/* 
 .home-2-img {
-  background-image: url(../images/home-bg-img.jpg); }
+  background-image: url(../images/home-bg-img.jpg); } */
 
 .featured-img-one {
   background-image: url(../images/home-bg-img.jpg); }
@@ -947,9 +947,9 @@ body {
   color: rgba(255, 255, 255, 0.7); }
 .nav-3 .navbar-nav {
   padding-top: 30px; }
-
+/* 
 .home-padding {
-  padding: 180px 0; }
+  padding: 180px 0; } */
 
 /*
     ==============
@@ -1075,8 +1075,10 @@ body {
     margin: 0 auto;
     float: none;
     text-align: center;
-    border: 20px solid rgba(0, 0, 0, 0.17);
-    border-radius: 50%; }
+    /* border: 10px solid rgb(0, 180, 180); */
+    border-radius: 5px;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+   }
 .mh-home .img-border {
   height: 400px;
   width: 400px;
